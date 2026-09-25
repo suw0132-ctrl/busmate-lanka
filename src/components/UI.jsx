@@ -1,0 +1,2 @@
+export function Card({className="",children,...props}){return <div className={className} {...props}>{children}</div>}
+export function Button({className="",children,type="button",...props}){return <button type={type} className={className} {...props}>{children}</button>}
